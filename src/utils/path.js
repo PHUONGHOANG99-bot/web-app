@@ -4,7 +4,7 @@
 export function normalizePath(path) {
   if (!path) return path;
   
-  // Lấy base URL từ Vite (sẽ là '/React-APP-ODER88/' trên GitHub Pages, '/' ở local)
+  // Lấy base URL từ Vite (sẽ là '/web-app/' trên GitHub Pages, '/' ở local)
   const baseUrl = import.meta.env.BASE_URL || '/';
   
   // Nếu path đã bắt đầu bằng /, thêm base URL vào
